@@ -1,0 +1,47 @@
+[
+    {
+        "image":"bookhouse",
+        "title":"Book House",
+        "description": "An e-commerce application to buy books online",
+        "tools":"Node.JS, Express.Js, Pug, Nodemail, bootstrap",
+        "github":"https://github.com/ChandanRS/Book-House",
+        "video":"https://vimeo.com/479247296",
+        "live":"https://bookhouse-chandan.herokuapp.com"
+        
+    },
+    {
+        "image":"covid",
+        "title":"Covid Tracker",
+        "description":"Covid infections tracker. This displays the covid effected people's count from worldwide",
+        "tools":"Node.JS, Express.Js, React.Js, Material UI",
+        "github":"https://github.com/ChandanRS/covid19-Tracker",
+        "video":"https://vimeo.com/479247296",
+        "live":"https://sars-cov2-2019-tracker.herokuapp.com/"
+    },
+    {
+        "image":"calculator",
+        "title":"Calculator",
+        "description":"A simple calculator",
+        "tools":"HTML5, CSS, JavaScript",
+        "github":"https://github.com/ChandanRS/calculator",
+        "live":"https://chandanrs.github.io/calculator/"
+    },
+    {
+        "image":"devconnector",
+        "title":"Developer Connector",
+        "description":"A Social Media web application to connect the developers worldwide.",
+        "tools":"React.Js, Node.Js, MongoDB, Express.Js",
+        "github":"https://github.com/ChandanRS/devConnector",
+        "live":"https://devconnector-chandanrs.herokuapp.com/"
+    },
+    {
+        "image":"quotegenerator",
+        "title":"Random Quote Generator",
+        "description":"A short project using React.Js, to access an open API to display random quotes.",
+        "tools":"Node.JS, Express.Js, React.Js, Material UI",
+        "github":" ReactJS, Netlify",
+        "video":"https://vimeo.com/479406209",
+        "live":"https://chandan-quotegenerator.netlify.app/"
+    }
+    
+]

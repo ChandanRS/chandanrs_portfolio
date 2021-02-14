@@ -1,0 +1,56 @@
+.My-Skills, .portfolio-title{
+    display: block;
+    font-size: var(--header-font-size);
+    font-weight: bold;
+    padding: 2rem;
+    color:var(--secondary-color);
+    letter-spacing: 0.1rem;
+   
+  }
+  
+  .contact-container{
+    display: flex;
+    /* background-color: rgb(248, 205, 152); */
+    margin-top: 1.5rem;
+    justify-content: space-evenly;
+    
+  }
+  
+  .skill-container{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  
+  
+  
+  .skill{
+     display: flex;
+     /* width: 20vw; */
+     justify-content: center;
+     padding: 2rem;
+     flex-direction: column;
+     animation : animation1 3s forwards ease;
+  
+  }
+  
+  
+  .skill img{
+    height: 5vw;
+    width: 5vw;
+    margin: auto;
+    margin-bottom: 1.1rem;
+    
+  
+  }
+  
+  .skill img:hover{
+   opacity: 0.8;
+  
+  }
+  
+  .skill-text{
+    font-weight: bold;
+    margin: auto;
+    font-size: var(--subheader-font-size);
+  }
