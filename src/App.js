@@ -17,12 +17,9 @@ function App() {
     <div className="App">
       <Router>
       <Navbar />
-      <Switch>
-          <Route exact path="/" component={About} />
-          <Route path="/about" component={About} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/projects" component={Projects} />
-        </Switch>
+      <About />
+      <Skills />
+      <Projects />
       </Router>
     </div>
   );

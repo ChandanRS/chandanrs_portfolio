@@ -3,7 +3,7 @@
         "image":"bookhouse",
         "title":"Book House",
         "description": "An e-commerce application to buy books online",
-        "tools":"Node.JS, Express.Js, Pug, Nodemail, bootstrap",
+        "tools":"Node.JS, Express.Js, Pug, Mongo DB",
         "github":"https://github.com/ChandanRS/Book-House",
         "video":"https://vimeo.com/479247296",
         "live":"https://bookhouse-chandan.herokuapp.com"
@@ -39,7 +39,7 @@
         "title":"Random Quote Generator",
         "description":"A short project using React.Js, to access an open API to display random quotes.",
         "tools":"Node.JS, Express.Js, React.Js, Material UI",
-        "github":" ReactJS, Netlify",
+        "github":"https://github.com/ChandanRS/quotegenerator",
         "video":"https://vimeo.com/479406209",
         "live":"https://chandan-quotegenerator.netlify.app/"
     }

@@ -1,0 +1,162 @@
+.banner{
+    /* background: green ; */
+    /* background-image: url('./images/website-design-background-1.jpg'); */
+    background: url("../images/bg1.jpg") no-repeat;
+    background-size: auto;
+    background-position: center;
+  }
+  
+   
+  .my-info{
+    display: flex;
+    margin-top: -7.1rem;
+    justify-content: center;
+    height: 650px; 
+    width: 1400px; 
+    // width: 100vw; 
+    // flex-direction: row;
+    // border: 1px solid black;
+    align-items: center;
+    display: flex;
+    // border: 2px solid black;
+  }
+  
+  .banner-title {
+    font-family: "Montserrat";
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // height: 100vh;
+    letter-spacing: 1px;
+  }
+  
+  .name-text{
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    // font-size: 120px;
+    // line-height: .75;
+    // margin: 10px 0;
+  }
+  /* styling my button */
+  
+  .white-mode {
+    text-decoration: none;
+    padding: 7px 10px;
+    background-color: #122;
+    border-radius: 3px;
+    color: #FFF;
+    transition: .35s ease-in-out;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-family: "Montserrat";
+  }
+  
+  .white-mode:hover {
+    background-color: #FFF;
+    color: #122;
+  }
+
+  
+
+  .banner-title{
+    display: flex;
+    font-family: LeagueGothic-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90px;
+    letter-spacing: 0.06em;
+    color: #0D0D1D;
+    // margin-top: 7rem;
+    margin: auto;
+    align-items: center;
+    margin-top: auto;
+    // margin-left: auto;
+  }
+
+  .info{
+    // display: flex;
+    // margin-right: 5rem;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    // height: 20rem;
+    margin-left: 40rem;
+  }
+  
+.Name{
+  display: flex;
+  flex-direction: column;
+}
+
+  .banner-subtitle{
+    display: block;
+    width: 38rem;
+    margin-left: auto;
+    font-family: LeagueGothic-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}   
+  
+  .profile-pic{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-left: 40%;
+    
+  }
+
+  .contact-container{
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+    margin: auto;
+    margin-top: 3rem;
+
+  }
+
+
+  @media only screen and (max-width: 700px) {
+    .my-info {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+    }
+
+    .illustration{
+      // width: 300px;
+      // height: 250px;
+      margin: auto;
+      // margin-top: 6rem;
+    }
+
+    // .banner-title{
+    //   display: block;
+    //   font-size: 48px;
+    //   padding-left: 5rem;
+    // }
+
+    .banner-subtitle{
+      display: block;
+      font-size: 20px;
+      padding-left: 5rem;
+
+    }
+
+    .contact-container{
+      width: 15rem;
+      margin: auto;
+      border: 2px solid red;
+
+    }
+  }
