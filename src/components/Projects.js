@@ -10,12 +10,14 @@ const SlideInDivUp = styled.div`
   animation: 1s ${slideInUpAnim};
 `;
 const Projects = (props) => {
+  const theme = localStorage.getItem("theme")
+
     return (
-        <div id="projects">
-        <div className="portfolio-title projects-title">What I've Built</div>
+        <div id="projects" className="projects-main-container">
+        <div className="portfolio-title">What I've Built</div>
        { projectsArr.map(pr=>
             <SlideInDivUp   className="projects-container">
-                <div id="bookhouse" className="project-details">
+                <div id="bookhouse" className={theme === "light" ? "project-details" :"project-details-dark"}>
                     <img className="projectImage" src={require('../images/projectImages/'+pr.image+'.png').default} alt="projectImage" />
                     <div className="project-title">{pr.title}</div>
                     <div className="links">

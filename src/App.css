@@ -12,8 +12,10 @@
   --header-font-size : 1.8rem;
   --subheader-font-size : 1.1rem;
   --heading-padding: 0.8rem;
-  --primary-color:rgba(221, 6, 6, 0.863);
-  --secondary-color:rgb(49, 11, 138);
+  --orangish:#ffdf6b;
+  --bluish:#582aff;
+  --light-color: #FFF;
+  --dark-color:#1c1e21;
 }
 
 
@@ -37,18 +39,63 @@ html,body{
 }
 
 .sm{
-  color:var(--secondary-color);
- 
+  color:var(--bluish);
+    /* color:var(--orangish); */
 }
+
+
 
 i:hover{
   opacity: 0.8;
-  color: var(--primary-color);
+  color: var(--orangish);
+  transform: scale(1.2); 
 }
 
 .skill{
-  color:var(--primary-color);
+  color:var(--orangish);
+
+
 }
+
+
+
+.navigation-bar{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0.5rem 0rem;
+  position:fixed;
+  width: 100vw;
+  background-color: var(--light-color);
+  z-index: 1000;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600;
+
+}
+
+.navigation-bar-dark{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0.5rem 0rem;
+  position:fixed;
+  width: 100vw;
+  background-color: var(--dark-color);
+  z-index: 1000;
+  font-family: 'DM Sans', sans-serif;
+font-weight: 600;
+}
+
+.navigation-bar-dark a{
+  color:var(--light-color);
+}
+
+.logo img{
+  height: 3rem;
+}
+  
+
+
 
 /* -----------------------------------NAV BAR-------------------------- */
 

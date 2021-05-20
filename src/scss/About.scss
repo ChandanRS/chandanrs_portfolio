@@ -1,21 +1,26 @@
+.about{
+  height: 100vh;
+  display: flex;
+}
+
+
 .banner{
-    /* background: green ; */
-    /* background-image: url('./images/website-design-background-1.jpg'); */
-    background: url("../images/bg1.jpg") no-repeat;
     background-size: auto;
-    background-position: center;
+    background-position: left center;
+    display: flex;
+    width: 100vw;
+    margin-top: 4.5rem;
   }
   
-   
+  .me{
+  //  margin-left: -3rem;
+  //  height: 35rem;
+   height: 90vh;
+    }
   .my-info{
     display: flex;
-    margin-top: -7.1rem;
+    // margin-top: -5.1rem;
     justify-content: center;
-    height: 650px; 
-    width: 1400px; 
-    // width: 100vw; 
-    // flex-direction: row;
-    // border: 1px solid black;
     align-items: center;
     display: flex;
     // border: 2px solid black;
@@ -24,7 +29,8 @@
   .banner-title {
     font-family: "Montserrat";
     text-align: center;
-    color: #FFF;
+    color: var(--light-color);
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,7 +57,7 @@
     padding: 7px 10px;
     background-color: #122;
     border-radius: 3px;
-    color: #FFF;
+    color: var(--light-color);
     transition: .35s ease-in-out;
     position: absolute;
     left: 15px;
@@ -60,7 +66,7 @@
   }
   
   .white-mode:hover {
-    background-color: #FFF;
+    background-color: var(--light-color);
     color: #122;
   }
 
@@ -88,7 +94,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     // height: 20rem;
-    margin-left: 40rem;
+    // margin-left: 40rem;
   }
   
 .Name{
@@ -105,15 +111,28 @@
     font-weight: normal;
     font-size: 32px;
     letter-spacing: 0.5px;
-    color: #000000;
+    // color: #000000;
+    color:var(--dark-color);
 }   
+
+.banner-subtitle-dark{
+  display: block;
+  width: 38rem;
+  margin-left: auto;
+  font-family: LeagueGothic-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  letter-spacing: 0.5px;
+  color:var(--light-color);
+
+}
   
   .profile-pic{
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
     margin-left: 40%;
-    
   }
 
   .contact-container{
@@ -125,38 +144,35 @@
 
   }
 
+  // 
 
   @media only screen and (max-width: 700px) {
-    .my-info {
+    .about{
+      height: 100vh;
       display: flex;
+    }
+    .me{
+      height: 20rem;
+    }
+    .banner{
       flex-direction: column;
-      margin: 0;
     }
-
-    .illustration{
-      // width: 300px;
-      // height: 250px;
-      margin: auto;
-      // margin-top: 6rem;
+    .banner-title{
+      margin-top: 2rem;
+      font-size: 60px;
     }
-
-    // .banner-title{
-    //   display: block;
-    //   font-size: 48px;
-    //   padding-left: 5rem;
-    // }
 
     .banner-subtitle{
-      display: block;
-      font-size: 20px;
-      padding-left: 5rem;
+      font-size: 24px;
+    }
 
+    .banner-subtitle-dark{
+      font-size: 24px;
     }
 
     .contact-container{
-      width: 15rem;
-      margin: auto;
-      border: 2px solid red;
-
+      width: 12rem;
+      margin-top: 2rem;
     }
+
   }
