@@ -17,7 +17,7 @@ const Projects = (props) => {
         <div className="portfolio-title">What I've Built</div>
        { projectsArr.map(pr=>
             <SlideInDivUp   className="projects-container">
-                <div id="bookhouse" className={theme === "light" ? "project-details" :"project-details-dark"}>
+                <div id="bookhouse" className={theme === "dark" ? "project-details-dark" : "project-details" }>
                     <img className="projectImage" src={require('../images/projectImages/'+pr.image+'.png').default} alt="projectImage" />
                     <div className="project-title">{pr.title}</div>
                     <div className="links">

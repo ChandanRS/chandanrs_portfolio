@@ -24,7 +24,7 @@ const Skills = () => {
         <h3>Front End</h3>
         <h3>UI Frameworks</h3>
         <h3>Back End</h3>
-        <JelloDiv className={theme === "light" ? "card-skills fe" :" card-skills-dark fe"}>
+        <JelloDiv className={theme === "dark" ? " card-skills-dark fe" : "card-skills fe" }>
         <span><i class="devicon-html5-plain colored"></i><span>HTML</span></span>
         <span> <i class="devicon-css3-plain-wordmark colored"></i><span>CSS 3</span></span>
         <span><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></span>
@@ -32,12 +32,12 @@ const Skills = () => {
         <span><i class="devicon-redux-original colored"></i><span>Redux</span></span>
         </JelloDiv>
 
-        <JelloDiv className={theme === "light" ? "card-skills" :"card-skills-dark"}>
+        <JelloDiv className={theme === "dark" ? "card-skills-dark" : "card-skills" }>
         <span><i class="devicon-bootstrap-plain colored"></i><span>Bootstrap</span></span>
         <span><i class="devicon-materialui-plain colored"></i><span>Material UI</span></span>
         </JelloDiv>
 
-        <JelloDiv className={theme === "light" ? "card-skills be" :" card-skills-dark be"}>
+        <JelloDiv className={theme === "dark" ? "card-skills-dark be" : "card-skills be"}>
         <span><i class="devicon-nodejs-plain colored"></i><span>Node Js</span></span>
         <span> <i class="devicon-postgresql-plain colored"></i><span>Postgres</span></span>
         <span><i class="devicon-mongodb-plain colored"></i><span>Mongo DB</span></span>

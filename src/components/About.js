@@ -46,7 +46,7 @@ const About = () => {
     return (
       <div className="about">
         <div id="about" className="banner">
-        <FadeInLeft>{theme === "light" ? <img className="me" src={me} alt="dp" /> : <img className="me" src={meDark} alt="dp" />}</FadeInLeft> 
+        <FadeInLeft>{theme === "dark" ?  <img className="me" src={meDark} alt="dp" /> : <img className="me" src={me} alt="dp" /> }</FadeInLeft> 
             
 
             <div className="my-info">  
@@ -55,7 +55,7 @@ const About = () => {
             <div className="info">
               <div className="Name">
                 <Bounce className="banner-title"><span className="name-text">Chandan Shetti</span></Bounce>
-                <SlideRight className={theme === "light" ? "banner-subtitle" : "banner-subtitle-dark"}>A JavaScript Enthusiast && Web Developer</SlideRight>
+                <SlideRight className={theme === "dark" ?  "banner-subtitle-dark" : "banner-subtitle" }>A JavaScript Enthusiast && Web Developer</SlideRight>
               </div>
                 <div className="contact-container">
             <FadeIn  className="contact">
