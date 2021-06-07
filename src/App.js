@@ -31,10 +31,10 @@ console.log(theme)
     <GlobalStyles/>
     <div className="App">
       <Router>
-      <div className={theme === "light" ? "navigation-bar" : "navigation-bar-dark"}>
+      {/* <div className={theme === "light" ? "navigation-bar" : "navigation-bar-dark"}> */}
       <Navbar />
       <Toggle theme={theme} toggleTheme={themeToggler} />
-      </div>
+      {/* </div> */}
       <About />
       <Skills />
       <Projects />

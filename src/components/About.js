@@ -12,6 +12,8 @@ import human2 from '../images/me.jpg'
 import me from '../images/me.jpg'
 import meDark from '../images/me_dark.jpg'
 import mypic from '../images/mypic.jpg'
+import anime from '../images/Programming3.gif'
+import dark from '../images/Programming_dark.gif'
 // import human2 from '../images/undraw_coding.png'
 // import human2 from '../images/undraw_Web_developer_re_h7ie.png'
 
@@ -45,17 +47,19 @@ const About = () => {
   const theme = localStorage.getItem("theme")
     return (
       <div className="about">
+        
         <div id="about" className="banner">
-        <FadeInLeft>{theme === "dark" ?  <img className="me" src={meDark} alt="dp" /> : <img className="me" src={me} alt="dp" /> }</FadeInLeft> 
+        {/* <div>{theme === "dark" ?  <img className="me" src={meDark} alt="dp" /> : <img className="me" src={me} alt="dp" /> }</div>  */}
+        <div>{theme === "dark" ?  <img className="me" src={dark} alt="dp" /> : <img className="me" src={anime} alt="dp" /> }</div> 
+        
+        {/* <img className= "profile-pic" src={dp} alt="dp" /> */}
             
-
             <div className="my-info">  
             {/* <Slide left><img className= "illustration" src={human2} alt="illustration" /></Slide> */}
-            {/* <img className= "profile-pic" src={dp} alt="dp" /> */}
             <div className="info">
               <div className="Name">
                 <Bounce className="banner-title"><span className="name-text">Chandan Shetti</span></Bounce>
-                <SlideRight className={theme === "dark" ?  "banner-subtitle-dark" : "banner-subtitle" }>A JavaScript Enthusiast && Web Developer</SlideRight>
+                <SlideRight className={theme === "dark" ?  "sub banner-subtitle-dark" : "sub banner-subtitle" }>A JavaScript Enthusiast && Web Developer</SlideRight>
               </div>
                 <div className="contact-container">
             <FadeIn  className="contact">
@@ -76,6 +80,7 @@ const About = () => {
             </div>
             </div>
             </div>
+
         </div>
         </div>
     );

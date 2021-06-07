@@ -3,7 +3,6 @@ import { func, string } from 'prop-types';
 import styled from "styled-components"
 
 const Button = styled.button`
-  
   border: 2px solid ${({ theme }) => theme.toggleBorder};
   border: none;
   border-radius: 30px;
@@ -13,11 +12,13 @@ const Button = styled.button`
   // margin: 0 auto;
   // overflow: hidden;
   // padding: 0.5rem;
-  position: relative;
+  position: absolute;
   width: 4rem;
   margin:auto;
   height: 2.25rem;
   outline: none;
+  right: 1rem;
+  top: 1rem;
   // align-content:center;
   }
 

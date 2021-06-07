@@ -6,6 +6,7 @@ import c from '../images/C.png'
 import cdark from '../images/Cdark.png'
 import s from '../images/S.png'
 import Toggle from "../components/Toggler"
+import dp from '../images/crs.jpg'
 
 const Navbar = () => {
   const theme = localStorage.getItem("theme")
@@ -48,46 +49,26 @@ const Navbar = () => {
     
     
     
-    return (
-        <>
-        
-        {/* <nav className="nav-bar">
-        <a href="#">Home</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#resume">Resume</a> */}
-        {/* <Toggle theme={theme} toggleTheme={themeToggler} /> */}
-        
-<nav role="navigation">
+  return (
+    <>
+      <Link to="/" className="logo">{theme === "light" ? <img src={c} alt="c" /> : <img src={cdark} alt="c" />}</Link>
+      <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
 
-  <div id="menuToggle">
-    
-    <input type="checkbox" />
-    
-    
-    <span></span>
-    <span></span>
-    <span></span>
-    
-    <ul id="menu">
-      <a href="#"><li>Home</li></a>
-      <a href="#skills"><li>Skills</li></a>
-      <a href="#projects"><li>Projects</li></a>
-      <a href="Chandan_Shetti_Resume_20-05-2021-22-39-54.pdf" download><li>Resume</li></a>
-    </ul>
-  </div>
-</nav>
-        {/* <div className="burger">
-            <button id="burger-btn" className="btn">
-                <div className="line line1"></div>
-                <div className="line line2"></div>
-                <div className="line line3"></div>
-            </button>
-        </div> */}
-        {/* </nav> */}
-        <Link to="/about" className="logo">{theme === "light" ? <img src={c} alt="c"/> : <img src={cdark} alt="c"/>}</Link>
-        {/* <Link to="/about" className="logo">{logoSvg}</Link> */}
-        
+          <ul id="menu">
+        <img className= "profile-pic" src={dp} alt="dp" />
+            <li className="home"><a href="#">Home</a></li>
+            <li ><a href="#skills">Skills</a></li>
+            <li ><a href="#projects">Projects</a></li>
+            <li ><a href="Chandan_Shetti_Resume_20-05-2021-22-39-54.pdf" download>Resume<i class="fa fa-download" aria-hidden="true"></i>
+            </a></li>
+          </ul>
+        </div>
+      </nav>
         </>
     );
 };
