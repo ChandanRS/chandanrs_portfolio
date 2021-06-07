@@ -64,7 +64,7 @@ const Navbar = () => {
             <li className="home"><a href="#">Home</a></li>
             <li ><a href="#skills">Skills</a></li>
             <li ><a href="#projects">Projects</a></li>
-            <li ><a href="Chandan_Shetti_Resume_20-05-2021-22-39-54.pdf" download>Resume<i class="fa fa-download" aria-hidden="true"></i>
+            <li ><a href="Chandan_Shetti_Resume_20-05-2021-22-39-54.pdf" download>Resume <i class="fa fa-download" aria-hidden="true"></i>
             </a></li>
           </ul>
         </div>

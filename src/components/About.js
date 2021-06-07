@@ -12,7 +12,8 @@ import human2 from '../images/me.jpg'
 import me from '../images/me.jpg'
 import meDark from '../images/me_dark.jpg'
 import mypic from '../images/mypic.jpg'
-import anime from '../images/Programming3.gif'
+// import anime from '../images/Programming3.gif'
+import anime from '../images/Programming1.png'
 import dark from '../images/Programming_dark.gif'
 // import human2 from '../images/undraw_coding.png'
 // import human2 from '../images/undraw_Web_developer_re_h7ie.png'
@@ -50,9 +51,8 @@ const About = () => {
         
         <div id="about" className="banner">
         {/* <div>{theme === "dark" ?  <img className="me" src={meDark} alt="dp" /> : <img className="me" src={me} alt="dp" /> }</div>  */}
-        <div>{theme === "dark" ?  <img className="me" src={dark} alt="dp" /> : <img className="me" src={anime} alt="dp" /> }</div> 
+        <div><img className="me" src={anime} alt="dp" /> </div> 
         
-        {/* <img className= "profile-pic" src={dp} alt="dp" /> */}
             
             <div className="my-info">  
             {/* <Slide left><img className= "illustration" src={human2} alt="illustration" /></Slide> */}

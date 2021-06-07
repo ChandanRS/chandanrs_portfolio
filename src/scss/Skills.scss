@@ -8,17 +8,18 @@
     // width: 1400px; 
     position: relative;
   font-family: 'DM Sans', sans-serif;
+  // background: rgb(151, 93, 226);
 }
 
 
-.My-Skills, .portfolio-title{
+.My-Skills{
     display: block;
     font-size: var(--header-font-size);
     font-weight: bold;
     // margin: 2rem;
     // color:var(--bluish);
     letter-spacing: 0.1rem;
-    margin-top: 5rem;
+    padding-top: 3rem;
   }
   
   .skill-container{
@@ -156,28 +157,34 @@
   @media only screen and (max-width: 700px) {
 
     .Container{
-      height: auto;
+      height: 100vh;
     }
   .skill-container{
     // display: flex;
     // justify-content: space-evenly;
-    width: 100vw;
-    height: 30rem;
+    width: 90vw;
+    // height: 30rem;
+    height: 100vh;
     z-index: 5;
     margin: 0px;
     overflow-y: scroll;
+
+    h2{
+      margin-left: -2rem;
+    }
   }
   
   .card-skills , .card-skills-dark{
-    margin-right: 2rem;
+   margin-right: 2rem;
+   padding: 0.5rem;
   }
 
   .illustrate{
     display: none;
   }
 
-  .My-Skills, .portfolio-title{
-    margin-top: 0rem;
+  .My-Skills{
+    padding-top: 2rem;
   }
 
   #menu{

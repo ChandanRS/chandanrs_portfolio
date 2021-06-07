@@ -18,8 +18,8 @@ const Projects = (props) => {
        { projectsArr.map(pr=>
             <SlideInDivUp   className="projects-container">
                 <div id="bookhouse" className={theme === "dark" ? "project-details-dark" : "project-details" }>
-                    <img className="projectImage" src={require('../images/projectImages/'+pr.image+'.png').default} alt="projectImage" />
                     <div className="project-title">{pr.title}</div>
+                    <img className="projectImage" src={require('../images/projectImages/'+pr.image+'.png').default} alt="projectImage" />
                     <div className="links">
                     <a href={pr.github} target="_blank" rel="noreferrer"><i className="fab project-icons fa-2x fa-github"></i></a>
                     { pr.video && <a href={pr.video} target="_blank" rel="noreferrer"><i className="fas project-icons fa-2x fa-video"></i></a>}
