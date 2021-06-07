@@ -30,6 +30,7 @@ html,body{
   max-width: 100%;
   overflow-x: hidden;
   font-family: 'DM Sans', sans-serif;
+  scroll-behavior: smooth;
 }
 
 @font-face {
