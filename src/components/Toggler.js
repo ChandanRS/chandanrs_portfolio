@@ -3,8 +3,9 @@ import { func, string } from 'prop-types';
 import styled from "styled-components"
 
 const Button = styled.button`
-  border: 2px solid ${({ theme }) => theme.toggleBorder};
-  border: none;
+  border: 1px solid ${({ theme }) => theme.toggleBorder};
+  color: ${({ theme }) => theme.background};
+  // border: none;
   border-radius: 30px;
   cursor: pointer;
   // font-size: 0.5rem;
