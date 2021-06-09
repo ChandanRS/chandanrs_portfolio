@@ -46,8 +46,7 @@ const Navbar = () => {
     </defs>
     </svg>
     )
-    
-    
+
     
   return (
     <>

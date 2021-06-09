@@ -8,7 +8,7 @@
     // width: 1400px; 
     position: relative;
   font-family: 'DM Sans', sans-serif;
-  // background: rgb(151, 93, 226);
+  background: #f0ebcc;
 }
 
 
@@ -48,9 +48,9 @@
     border-radius: 16px;
     display: grid;
     place-items: center;
-    background-color: rgba(240, 231, 231, 0.5);
+    background-color: rgba(255, 255, 255, 0.671);
     // box-shadow: #010102 1px 1px 8px ;
-    box-shadow: -8px 9px 9px -4px rgba(30, 30, 60, 0.13);
+    box-shadow: -8px 9px 9px -4px rgba(0, 0, 155, 0.13);
     border: 1px solid rgb(224, 224, 224);
   }
 
@@ -61,7 +61,7 @@
     border-radius: 16px;
     display: grid;
     place-items: center;
-    background-color: #180537;
+    background-color: #0000008e;
     // box-shadow: #010102 1px 1px 8px ;
     box-shadow: -8px 9px 9px -4px rgba(255, 255, 255, 0.13);
     // border: 1px solid rgb(224, 224, 224);
@@ -160,7 +160,9 @@
       height: 100vh;
     }
   .skill-container{
-    // display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
     // justify-content: space-evenly;
     width: 90vw;
     // height: 30rem;
@@ -177,10 +179,14 @@
   .card-skills , .card-skills-dark{
    margin-right: 2rem;
    padding: 0.5rem;
+   z-index: 8;
   }
 
   .illustrate{
-    display: none;
+   position: absolute;
+    z-index: 1;
+    bottom: 0;
+    width: 17rem;
   }
 
   .My-Skills{
@@ -191,4 +197,18 @@
     transform: translate(-100%, 0);
   }
 
+  .skill-container h3{
+    margin: 0px;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+  .card-skills , .card-skills-dark{
+    z-index: 8;
+   }
+  .illustrate{
+    z-index: 1;
+  }
 }

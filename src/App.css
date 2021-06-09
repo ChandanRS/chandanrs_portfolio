@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* background: #fff5b7; */
 }
 
 
@@ -14,6 +15,7 @@
   --heading-padding: 0.8rem;
   --orangish:#ffdf6b;
   --bluish:#582aff;
+  /* --bluish:gray; */
   --light-color: #FFF;
   --dark-color:#1c1e21;
 }
@@ -38,24 +40,30 @@ html,body{
   src: url('../src/league-gothic.regular.ttf');
 }
 
-.sm{
+/* .sm{
   color:var(--bluish);
-    /* color:var(--orangish); */
+} */
+
+/* i { 
+  transition: all .2s ease-in-out; 
 }
+i:hover {
+   transform: scale(1.1); 
+    cursor: pointer;
+    color: var(--orangish);
 
+} */
 
-
-i:hover{
+/* i:hover{
   opacity: 0.8;
   color: var(--orangish);
   transform: scale(1.2); 
-}
+} */
 
 .skill{
   color:var(--orangish);
-
-
 }
+
 
 
 

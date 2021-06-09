@@ -31,10 +31,22 @@ justify-content: flex-start;
 text-align: left;
 }
 
-.contact a{
-    margin: 0px 1rem 0px 0px;
+.footer-contact a{
+    margin: 1rem 1rem 0px 0px;
+   
 }
-
+.footer-contact{
+    i { 
+        transition: all .2s ease-in-out; 
+        color: gray;
+      }
+      i:hover {
+         transform: scale(1.1); 
+          cursor: pointer;
+          color: var(--orangish);
+      
+      }
+}
 .mail{
     display: flex;
     flex-direction: column;
@@ -66,6 +78,7 @@ text-align: left;
         }
 
     article{
+        margin-top: 3rem;
         display: flex;
         flex-direction: column;
         align-items:center;
@@ -82,15 +95,28 @@ text-align: left;
     }
 
     .mail{
+        margin-top: 2rem;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         margin: 0px;
     }
-    .contact a{
+    .footer-contact{
         margin: 1rem 1rem 0px 0px;
+        i { 
+            transition: all .2s ease-in-out; 
+          }
+          i:hover {
+             transform: scale(1.1); 
+              cursor: pointer;
+              color: var(--orangish);
+          
+          }
     }
+
+  
+
     .madeBy{
         margin-top: 2rem;
     }

@@ -14,9 +14,10 @@ const Projects = (props) => {
 
     return (
         <div id="projects" className="projects-main-container">
-        <div className="portfolio-title">What I've Built</div>
+        <div className="projects-title">What I've Built</div>
+        <div className="projects-contents">
        { projectsArr.map(pr=>
-            <SlideInDivUp   className="projects-container">
+            <SlideInDivUp  className="projects-container">
                 <div id="bookhouse" className={theme === "dark" ? "project-details-dark" : "project-details" }>
                     <div className="project-title">{pr.title}</div>
                     <img className="projectImage" src={require('../images/projectImages/'+pr.image+'.png').default} alt="projectImage" />
@@ -35,6 +36,7 @@ const Projects = (props) => {
                 </div> 
             </SlideInDivUp>
     )}
+    </div>
     </div>
     );
 };
