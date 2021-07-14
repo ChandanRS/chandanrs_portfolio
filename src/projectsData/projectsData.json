@@ -19,14 +19,6 @@
         "live":"https://sars-cov2-2019-tracker.herokuapp.com/"
     },
     {
-        "image":"calculator",
-        "title":"Calculator",
-        "description":"A simple calculator",
-        "tools":"HTML5, CSS, JavaScript",
-        "github":"https://github.com/ChandanRS/calculator",
-        "live":"https://chandanrs.github.io/calculator/"
-    },
-    {
         "image":"devconnector",
         "title":"Developer Connector",
         "description":"A Social Media web application to connect the developers worldwide.",
@@ -38,10 +30,26 @@
         "image":"quotegenerator",
         "title":"Random Quote Generator",
         "description":"A short project using React.Js, to access an open API to display random quotes.",
-        "tools":"Node.JS, Express.Js, React.Js, Material UI",
+        "tools":"React.Js",
         "github":"https://github.com/ChandanRS/quotegenerator",
         "video":"https://vimeo.com/479406209",
         "live":"https://chandan-quotegenerator.netlify.app/"
+    },
+    {
+        "image":"randomuser",
+        "title":"Random User",
+        "description":"A short project using React.Js, to access an open API to display random users.",
+        "tools":"React.Js",
+        "github":"https://github.com/ChandanRS/randomuser",
+        "live":"https://randomusers-chandan.netlify.app/"
+    },
+    {
+        "image":"calculator",
+        "title":"Calculator",
+        "description":"A simple calculator",
+        "tools":"HTML5, CSS, JavaScript",
+        "github":"https://github.com/ChandanRS/calculator",
+        "live":"https://chandanrs.github.io/calculator/"
     }
     
 ]
